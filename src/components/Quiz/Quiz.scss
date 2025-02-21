@@ -1,0 +1,118 @@
+
+
+.quiz-container {
+
+    width: 700px;
+    background: rgb(0 74 110 / 10%);
+    border-radius: 4px;
+    border: 1px solid rgb(223 243 254 / 36%);;
+    margin-top: 50px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 
+              -5px -5px 15px rgba(255, 255, 255, 0.8);
+
+    .active-question-no{
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+    }
+    .total-question{
+        font-size: 16px;
+        font-weight: 500;
+        color: black
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 500;
+        margin: 20px;
+        text-align: center;
+    }
+    ul{
+        margin-top: 20px;
+        // margin-left: -40px;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        gap: 10px; /* Space between buttons */
+        width: auto; /* Adjust width as needed */
+        justify-items: stretch;
+}
+    }
+    li{
+        text-decoration: none;
+        background: white;
+        list-style: none;
+        font-family:'Times New Roman', Times, 'serif';
+        font-size: 14px;
+        text-align: center;
+        border: 2px solid rgb(176 187 224);
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin-top: 15px;
+        overflow: hidden; /* Hide overflow content */
+        
+        cursor: pointer;
+    }
+    .selected-answer{
+        background: rgb(102 160 188);
+        border: 2px solid rgb(13, 82, 116);
+        color: white;
+    }
+    .footer-integer-type{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        display: block;
+        margin: auto;
+        font-family: 'Times New Roman', Times, 'serif';
+        background: rgb(0 74 110);
+        color: white;
+        cursor: pointer;
+        border-radius: 9px;
+        font-size: 18px;
+        padding: 10px 30px;
+        outline: none;
+        border: none;
+        margin-top: 15px;
+    }
+
+    button:disabled {
+        border-radius: 9px;
+        padding: 10px 30px;
+        background: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    input{
+        border: 1px solid #c0bdff;
+        border-radius: 4px;
+        padding: 10px 40px;
+        width: 40%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+        .quiz-container {
+            padding: 20px;
+            margin-top: 20px;
+            width: auto;
+        }
+    
+        li {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    
+        button {
+            width: 100%;
+            font-size: 16px;
+        }
+    }
+

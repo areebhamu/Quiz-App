@@ -1,0 +1,17 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100vh;
+}
+
+/* Make sure content is centered on smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+}
