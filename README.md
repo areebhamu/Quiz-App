@@ -3,8 +3,6 @@ Features:
 
 Multiple Quiz Attempts: Users can take quizzes multiple times.
 
-Instant Feedback: Users receive feedback on their answers immediately.
-
 Progress Tracking: The app keeps track of the user's progress.
 
 Timer-Based Quiz: Quizzes have a time limit to enhance challenge.
@@ -37,8 +35,12 @@ npm start
 Open in Browser
 Visit http://localhost:3000 in your web browser.
 
-Build for Production
+Build for Production:
 
 npm run build
 
 The production-ready files will be in the dist/ folder.
+
+The Deployment link is below:
+
+https://symphonious-dragon-c22fb3.netlify.app/
