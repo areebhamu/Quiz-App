@@ -2,10 +2,15 @@
 Features:
 
 Multiple Quiz Attempts: Users can take quizzes multiple times.
+
 Instant Feedback: Users receive feedback on their answers immediately.
+
 Progress Tracking: The app keeps track of the user's progress.
+
 Timer-Based Quiz: Quizzes have a time limit to enhance challenge.
+
 Offline Data Storage: Uses IndexedDB to store quiz history locally.
+
 Responsive Design: Works seamlessly across different screen sizes.
 
 Running the App Locally
